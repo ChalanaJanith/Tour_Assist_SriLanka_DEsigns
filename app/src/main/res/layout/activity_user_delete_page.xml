@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mad_Signup_Page.UserEditPage"
+    android:background="@color/lightwhite"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="352dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/deletebackground"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/MyProfile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Your Profile"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/lightwhite">
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Your Name"
+            android:inputType="none"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/Silvercolor" />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="E-Mail"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:inputType="none"
+            android:textColorHint="@color/Silvercolor"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Phone"
+            android:inputType="none"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center"
+            android:textColorHint="@color/Silvercolor" />
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Address"
+            android:inputType="none"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center"
+            android:textColorHint="@color/Silvercolor" />
+
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:text="Delete Your Profile"
+            android:textColor="@color/Whitecolor"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:background = "@drawable/calculateexpense_btn"/>
+
+
+</LinearLayout>
