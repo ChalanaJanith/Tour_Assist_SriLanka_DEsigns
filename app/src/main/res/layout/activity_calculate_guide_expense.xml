@@ -230,16 +230,17 @@
 
 
         </TableLayout>
+
         <Button
+            android:id="@+id/calculateExpense"
             android:layout_width="280dp"
             android:layout_height="45dp"
-            android:id="@+id/calculateExpense"
-            android:text="Calculate Expense"
-            android:textColor="@color/Whitecolor"
-            android:textAllCaps="false"
-            android:layout_marginTop="25dp"
             android:layout_gravity="center"
-            android:background="@drawable/calculateexpense_btn"/>
+            android:layout_marginTop="25dp"
+            android:background="@drawable/calculateexpense_btn"
+            android:text="@string/Calculate_BTN"
+            android:textAllCaps="false"
+            android:textColor="@color/Whitecolor" />
 
 
 

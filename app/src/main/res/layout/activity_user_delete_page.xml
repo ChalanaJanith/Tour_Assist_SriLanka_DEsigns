@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:text="Your Profile"
+                android:text="@string/Your_Profile"
                 android:textColor="#fff"
                 android:textSize="21sp"
                 android:textStyle="bold" />
@@ -101,16 +101,16 @@
 
     </LinearLayout>
 
-        <Button
-            android:layout_width="280dp"
-            android:layout_height="45dp"
-            android:text="Delete Your Profile"
-            android:textColor="@color/Whitecolor"
-            android:textAllCaps="false"
-            android:layout_marginTop="15dp"
-            android:layout_gravity="center"
-            android:elevation="5dp"
-            android:background = "@drawable/calculateexpense_btn"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/calculateexpense_btn"
+        android:elevation="5dp"
+        android:text="@string/Delete_BTN"
+        android:textAllCaps="false"
+        android:textColor="@color/Whitecolor" />
 
 
 </LinearLayout>

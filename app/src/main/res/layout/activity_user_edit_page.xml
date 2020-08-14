@@ -103,16 +103,16 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/updateBtn"
         android:layout_width="280dp"
         android:layout_height="45dp"
-        android:text="Update profile"
-        android:id="@+id/updateBtn"
-        android:textColor="@color/Whitecolor"
-        android:textAllCaps="false"
-        android:layout_marginTop="15dp"
         android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/calculateexpense_btn"
         android:elevation="5dp"
-        android:background="@drawable/calculateexpense_btn"/>
+        android:text="@string/Update_BTN"
+        android:textAllCaps="false"
+        android:textColor="@color/Whitecolor" />
 
 
 
