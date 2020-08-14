@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Tour Assist SriLanka</string>
+    <string name="E_Mail">E-Mail</string>
+    <string name="new_password">New Password</string>
+    <string name="change_your_password">Change Your Password</string>
+    <string name="Forgot_password_page_heading">Reset Your Password</string>
+    <string name="para">Dont worry!\nhappens to the best of us.</string>
+    <string name="Calculate_BTN">Calculate Expense</string>
+    <string name="Your_Profile">Your Profile</string>
+    <string name="Delete_BTN">Delete Your Profile</string>
+    <string name="Update_BTN">Update profile</string>
 </resources>
