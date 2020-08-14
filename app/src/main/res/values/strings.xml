@@ -9,4 +9,5 @@
     <string name="Your_Profile">Your Profile</string>
     <string name="Delete_BTN">Delete Your Profile</string>
     <string name="Update_BTN">Update profile</string>
+    <string name="Update_BT">Update profile</string>
 </resources>
